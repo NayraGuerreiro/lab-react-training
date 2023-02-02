@@ -1,6 +1,9 @@
 import './App.css';
 import IdCard from './components/IdCard';
 import Greeting from './components/Greetings';
+import LikeButton from './components/LikeButton';
+import ClikablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
 
 function App() {
   return (
@@ -26,6 +29,10 @@ function App() {
       <h2>Greetings</h2>
       <Greeting lang="de">Ludwig</Greeting>
       <Greeting lang="fr">François</Greeting>
+
+      <LikeButton />
+      <ClikablePicture />
+      <Dice />
     </div>
   );
 }
